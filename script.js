@@ -1,9 +1,10 @@
 
-function toggleBtn(){
-    const button = document.getElementById('btn');
+button.addEventListener('click', toggleBtn)
+const button = document.getElementById('btn');
+
+function toggleBtn() {
     const buttonText = button.innerText;
     console.log(button)
-
     if (buttonText === "On") {
         button.innerText = "Off";
         button.style.backgroundColor = "green";
