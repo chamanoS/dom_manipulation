@@ -11,17 +11,20 @@
 
     <div id="parent">
         <ul class="lists">
-            <li class="list">Music</li>
-            <li class="list">Poetry</li>
-            <li class="list">Art</li>
-            <li class="list">Business</li>
-            <li class="list">History</li>
+            <li id="lista"  class="list" draggable="true" ondragstart="drag(event)">Music</li>
+            <li id="listb"  class="list"  draggable="true" ondragstart="drag(event)">Poetry</li>
+            <li class="list"  draggable="true" ondragstart="drag(event)">Art</li>
+            <li class="list"  draggable="true" ondragstart="drag(event)">Business</li>
+            <li class="list"  draggable="true" ondragstart="drag(event)">History</li>
         </ul>
     </div>
 
-    <div class="drop-off">
+    <div id="dropper" class="drop-off" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h4>Drop here</h4>
     <!--          -->
     </div>
+
+    
     
 
     <script src="./script.js"></script>
