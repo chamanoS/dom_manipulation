@@ -1,0 +1,10 @@
+.list{
+    list-style: none;
+    margin: 5px 0;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: azure;
+    width: 50%;
+    border: 3px dashed lightcyan;
+    text-align: center;
+}
