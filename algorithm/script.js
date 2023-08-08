@@ -1,7 +1,16 @@
 // Reverse String
 
+// function reverseStr(str){
+//     return str.split('').reverse().join('');
+// }
+
 function reverseStr(str){
-    return str.split('').reverse().join('');
+    var reverseStr = "";
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverseStr += str[i];
+    }
+    return reverseStr;
 }
 
-console.log(reverseStr('hello'))
+console.log(reverseStr('hellos'))
