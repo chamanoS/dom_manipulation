@@ -14,3 +14,12 @@ function reverseStr(str){
 }
 
 console.log(reverseStr('hellos'))
+
+
+function countUniqVal(){
+    const uniqueVal = 0;
+
+    return uniqueVal;
+}
+
+console.log(countUniqVal())

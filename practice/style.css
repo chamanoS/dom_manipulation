@@ -1,0 +1,25 @@
+.btn{
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+    background-color: beige;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#parent{
+    background-color: green;
+    width: 40%;
+}
+
+.btn2{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+li{
+    list-style: none;
+    margin-left: -10px;
+}
